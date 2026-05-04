@@ -98,7 +98,7 @@ export default function AuthPage({ defaultMode = 'login' }: Props) {
   return (
     <div
       className="min-h-screen flex items-center justify-center p-4 relative overflow-hidden font-body"
-      style={{ background: 'linear-gradient(135deg, #1b5cde 0%, #5C3A1E 35%, #7A4F2B 65%, #9B6F4A 100%)' }}
+      style={{ background: 'linear-gradient(135deg, #174fc0 0%, #5C3A1E 35%, #7A4F2B 65%, #9B6F4A 100%)' }}
     >
       {/* Cercles décoratifs de fond */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -249,7 +249,7 @@ export default function AuthPage({ defaultMode = 'login' }: Props) {
           {/* DROITE : ILLUSTRATION */}
           <div
             className="hidden lg:flex flex-col items-center justify-center w-72 xl:w-80 p-8 relative overflow-hidden flex-shrink-0"
-            style={{ background: 'linear-gradient(160deg, #8f5922 0%, #E8DDD4 60%, #D1BAAA 100%)' }}
+            style={{ background: 'linear-gradient(160deg, #F5F0EB 0%, #E8DDD4 60%, #D1BAAA 100%)' }}
           >
             <div className="absolute top-0 right-0 w-44 h-44 rounded-full bg-ink-200/25 translate-x-1/3 -translate-y-1/3" />
             <div className="absolute bottom-0 left-0 w-36 h-36 rounded-full bg-ink-300/15 -translate-x-1/3 translate-y-1/3" />
